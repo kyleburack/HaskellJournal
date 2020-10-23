@@ -1,1 +1,21 @@
-Haskell Week 1
+Blog Week 1
+
+Starting in haskell
+
+Haskell installation is more difficult that it appears as there is many people that have had troubles installing on both windows and mac systems alike. Mac is a little easier to install as windows is the more difficult OS.
+
+1. configure Chocolatey
+      Use windows powershell to install. Make sure it is run as an administrator.
+      after running the command from the wesite. (https://chocolatey.org/install) you can type "choco" to make sure it is installed
+
+2. Clean cabal installation
+      cabal user-config init -f
+      used to allow for clean install of haskell in the next step.
+
+3. Install haskell
+      choco install haskell-dev
+      refreshenv
+      These commands will install Haskell and complete the installed
+
+4. Type stack exec gchi
+      This will run the gchi to allow haskell to start and execute code/inputs.

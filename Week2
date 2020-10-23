@@ -1,0 +1,10 @@
+Blog week 2
+
+How haskell differs.
+
+I believe that the main reason and way that haskell differs from say python is in python (an imperial language) there is a distiguish between statements and expressions.
+in imperial statements like conditionals, oops, and assignments of variables. all of these do not return values but rather compute through the
+memory flow that python or other imperial languages have.
+
+Haskell is a functional programming language. which means that everything is an expression. The computational model of funxctional languages is simpiler than that of imperial.
+Haskell can write a compiler for a imperative language.
