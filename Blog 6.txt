@@ -1,0 +1,24 @@
+Blog Week 6
+
+more work cycle and making multiplication.lc and factorial.lc
+
+Begin a work cycle to generate the files needed for execution
+need to make the synax of the if then else syuntax
+
+make sure that the exp numbers are in the range and also need to number the variables correctly to figure out which of the ones are in the right space
+Have to add the defiinition of the expression in the interpreter too so the computer knows what it is looking for and how to parse it correctly to complete the fiule input and execution
+
+part 2 is basically just coding through multiplication, using if then else.
+
+for multiplication it is the first number added to itself the second number amount of times. 3x2 = 3+3
+Have tto do the checks first, base checks are if either = 0 then 0, if y(second number) = 1 then x(first number)
+if y>1 then have to have x plus x and minus_one y
+
+Factorial is a little more complex because it uses the multiplication we just made above.
+3^3 = 3*3*3 = 3+3+3+3+3+3+3+3+3
+
+so for checks need to look for y(the exponent) to be 0, or 1.
+=0 then 1
+=1 then x
+
+if greater then need to multiply then minus one the y to be able to hit the test cases. it all recursion

@@ -1,0 +1,27 @@
+Blog Week 7
+
+Normal forms
+
+to get to normal form you need to work through the given rules and variable list set that needs to be reduced.
+
+Important to remember that rules are all active at the same time, top does not mean priority.
+
+A->B
+BC->D
+DE->D
+DD->
+D->
+
+
+ACBCDE
+BCBCDE
+DBCDE
+DDDE
+DE
+D
+-
+
+this is not a complete rules set for a terminating confluent ARS.
+
+for it to be confluent needs to be able to have everything reduce down to 1 letter. letter is a bad word for it because it represents something, but its the best way to explain it here
+

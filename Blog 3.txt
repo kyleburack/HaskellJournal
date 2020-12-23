@@ -1,0 +1,43 @@
+Blog Week 3
+
+Lmabda Calculus starts with a program of function containing a variable.
+λx.e, with e being the function and x being the variable
+
+e::=λx.e|ee|x
+x is the range over an infinite set, the elements of x are variables
+
+This is the definition of the functions from higher level programming languages
+
+λx basically equivelates to the definition of the function, what it is and the parameters along with it.
+
+e is basically the rest, the code inside. how the funtion works and the return.
+
+this is the base form for the definition of the function as any values or data can be inputted into the lambda expression created
+
+these rules can be combined with the same rules and create extensive lambda expressions that are tied together to create a longer expression
+
+abc ---> ((ab)c)
+abcd ---> (((ab)c)d)
+
+x
+x x
+x y
+x y z 
+\x.x
+\x.x x
+(\x (\y . x y)) (\x.x) z
+
+e1	e2
+\x.y	\ x . y
+x y	(x y)
+x y	((x y))
+x y z	(x y) z
+x y z	xyz
+x y z	x (y z)
+\x.y z	\x.(y z)
+\x.y z	(\x.y) z
+(\x.x) y z	((\x.x) y) z
+(\x. x) y z	(\x. x) (x y)
+\x.\y.x y	\x.(\y.x y)
+\x.\y.x y	(\x.\y.x) y
+\ x. x	\ y. y

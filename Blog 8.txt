@@ -1,0 +1,23 @@
+Blog Week 10
+
+M > D > C > L > X > V > I  
+For example, IVIXILICIDIM will reduce to MDCLXVIIIIII.  
+
+For the rewrite rules ytou make it so that if the roman numeral on the right of the 2 roiman numerals you are checking in the rules then swap the positions.
+
+CM->MC
+IV->VI
+
+this does not use reduction of values, comes now
+simple really,
+
+IIIII->V
+VV->x
+XXXXX->L
+LL->C
+CCCCC->D
+DD->M
+
+thats the rewrite so that reduction happens when available
+becuase of using additive over normal we dont have to have the cases of sebtration of roman numerals to obtain specific values.
+

@@ -1,0 +1,26 @@
+Blog Week 4
+
+data NN = O | S NN 
+data Exp = Plus Exp Exp | Times Exp Exp | Num NN
+
+add O n = n
+add (S n) m = S (add n m)
+
+mult O n = O
+mult (S n) m = add m (mult n m)
+
+eval (Num n) = n
+eval (Plus n m) = add (eval n) (eval m)
+eval (Times n m) = mult (eval n) (eval m)
+
+fib 0 = 0
+fib 1 = 1
+fib n = fib (n-1) + fib (n-2)
+
+in rewriting equations it is important to start with understanding. 
+knowing the goal of what you are trying to reach and being able to know what the output should be
+
+
+In an imperative language such as Python one typically distinguishes statements and expressions. Expressions such as 1+2can be evaluated. Statements such as conditionals, loops, assignments do not return values but compute via the side effects they have on the control flow or the memory.
+
+In a functional programming language such as Haskell everything is an expression. Evaluation of expressions is how computation proceeds.
